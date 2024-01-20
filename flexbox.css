@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="flexbox.css"/>
+</head>
+
+<style>
+.container{
+    display:flex;
+justify-content:space-between;
+align item:center;
+flex-direction:row;
+flex-wrap:wrap;
+background-color:gainsboro;
+display:grid;
+grid-template-columns:repeat(3, ifr);
+gap:20px;
+background-color:aquamarine
+}
+.item{
+background-color:red;
+padding:10px;
+flex:1;
+margin:30px;
+}
+</style>
+
+<body>
+<div class="container">
+<div class="item">01</div>
+<div class="item">02</div>
+<div class="item">03</div>
+<div class="item">01</div>
+<div class="item">02</div>
+<div class="item">03</div>
+
+</div>
+</body>
+</html>
+  
